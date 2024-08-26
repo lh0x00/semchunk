@@ -23,10 +23,10 @@ _memoized_token_counters = {}
 """A map of token counters to their memoized versions."""
 
 _NON_WHITESPACE_SEMANTIC_SPLITTERS = (
-    '.', '?', '!', '*', # Sentence terminators.
-    ';', ',', '(', ')', '[', ']', "“", "”", '‘', '’', "'", '"', '`', # Clause separators.
-    ':', '—', '…', # Sentence interrupters.
-    '/', '\\', '–', '&', '-', # Word joiners.
+    '. ', '? ', '! ', '* ', # Sentence terminators.
+    # ';', ',', '(', ')', '[', ']', "“", "”", '‘', '’', "'", '"', '`', # Clause separators.
+    # ':', '—', '…', # Sentence interrupters.
+    # '/', '\\', '–', '&', '-', # Word joiners.
 )
 """A tuple of semantically meaningful non-whitespace splitters that may be used to chunk texts, ordered from most desirable to least desirable."""
 
